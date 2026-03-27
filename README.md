@@ -7,12 +7,19 @@ To write a program for error Detection using Cyclic Redundancy Check (CRC-16 bit
 2.	C++ compiler
 
 # ALGORITHM:
-1] Open code blocks application and create a new file. 2] After creating the file type the codes.
-3] After typing the codes save the file using the .c extension in the desired location. 4] Run the program using build and run.
-5] Give polynomial values and the generated polynomial is obtained, and by other means arraive	at the desired output which uses the error detection technique. 6] Thus the output polynomial is obtained through this technique.
+- 1] Open code blocks application and create a new file. 
+- 2] After creating the file type the codes.
+- 3] After typing the codes save the file using the .c extension in the desired location. 
+- 4] Run the program using build and run.
+- 5] Give polynomial values and the generated polynomial is obtained, and by other means arraive	at the desired output which uses the error detection technique. 
+- 6] Thus the output polynomial is obtained through this technique.
 
 # PROGRAM:
-#include<stdio.h> #include<string.h> #define Nstrlen(g) char t[128],cs[128],g[]="111";
+```C
+#include<stdio.h>
+#include<string.h>
+#define Nstrlen(g)
+char t[128],cs[128],g[]="111";
 int a,e,c; voidxor()
 {
 for(c=1;c<N;c++) cs[c]=((cs[c]==g[c])?'0':'1');
@@ -49,9 +56,11 @@ for(e=0;(e<N-1)&&(cs[e]!='1');e++) if(e<N-1)
 printf("Error detected"); else
 printf("no error detected");
 }
+```
  
 # OUTPUT:
 
+<img width="864" height="424" alt="image" src="https://github.com/user-attachments/assets/4b311686-ef7b-41d5-9343-02a2f78e943a" />
 
 # RESULT:
 Thus the error detection using CRC-CCITT[16 bit] technique is implemented and the output is obtained and verified successfully.
