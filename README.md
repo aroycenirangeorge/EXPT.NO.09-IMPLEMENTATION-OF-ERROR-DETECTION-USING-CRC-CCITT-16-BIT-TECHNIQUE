@@ -1,4 +1,5 @@
 # EXPT.NO.09-IMPLEMENTATION-OF-ERROR-DETECTION-USING-CRC-CCITT-16-BIT-TECHNIQUE
+Royce Niran George A - 212223060231
 # AIM:
 To write a program for error Detection using Cyclic Redundancy Check (CRC-16 bit) technique.
 
